@@ -1,0 +1,21 @@
+{
+    "name": "vssenterprise/module-generator",
+    "description": "CRUD generator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vssenterprise\\ModuleGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vikas kumawat",
+            "email": "officialvikaskumawat@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
