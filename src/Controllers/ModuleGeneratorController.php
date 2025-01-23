@@ -240,8 +240,8 @@ protected function createViews($moduleName, $fields)
                     <td>{{ \$record->name }}</td>
                     <td>{{ \$record->description }}</td>
                     <td>
-                        <a href="{{ route(' . strtolower($moduleName) . 's.edit', \$record->id) }}" class="btn btn-primary btn-sm">Edit</a>
-                        <form action="{{ route(' . strtolower($moduleName) . 's.destroy', \$record->id) }}" method="POST" style="display:inline;">
+                        <a href="{{ route(strtolower($moduleName) . 's.edit', \$record->id) }}" class="btn btn-primary btn-sm">Edit</a>
+                        <form action="{{ route(strtolower($moduleName) . 's.destroy', \$record->id) }}" method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger btn-sm">Delete</button>
