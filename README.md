@@ -19,7 +19,7 @@ This Laravel package allows you to generate modules with predefined fields and f
     composer require developervkindia/module-generator:dev-main
     ```
 
-3. Add the service provider to `bootstrap/app.php`:
+3. Add the service provider to `bootstrap/provider.php`:
     ```php
     Developervkindia\ModuleGenerator\Providers\ModuleGeneratorProvider::class,
     ```
@@ -31,4 +31,4 @@ This Laravel package allows you to generate modules with predefined fields and f
 
 ## Usage
 
-Once the package is installed, you can access the module generator using the following URL:
+Once the package is installed, you can access the module generator using the following URL: your-module.com/module-generator
