@@ -1,6 +1,6 @@
 <?php
 
-namespace Vssenterprise\ModuleGenerator\Models;
+namespace Developervkindia\ModuleGenerator\Models;
 
 use Illuminate\Support\Facades\Http;
 

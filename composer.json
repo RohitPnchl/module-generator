@@ -1,11 +1,11 @@
 {
-    "name": "vssenterprise/module-generator",
+    "name": "developervkindia/module-generator",
     "description": "CRUD generator",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vssenterprise\\ModuleGenerator\\": "src/"
+            "Developervkindia\\ModuleGenerator\\": "src/"
         }
     },
     "authors": [
